@@ -2,6 +2,7 @@ package co.twinkly.picatego.features.categorydetail;
 
 import android.content.Context;
 
+import co.twinkly.picatego.utils.services.network.NetworkService;
 import dagger.Module;
 import dagger.Provides;
 
@@ -28,7 +29,7 @@ public class CategoryDetailModule {
 
     @CategoryDetailScope
     @Provides
-    public CategoryDetailContract.Interactor interactor() {
-        return new CategoryDetailInteractor();
+    public CategoryDetailContract.Interactor interactor(NetworkService networkService) {
+        return new CategoryDetailInteractor(networkService);
     }
 }

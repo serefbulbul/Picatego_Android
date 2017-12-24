@@ -5,6 +5,7 @@ import android.app.Application;
 import android.support.compat.BuildConfig;
 
 import co.twinkly.picatego.utils.constants.Constants;
+import timber.log.Timber;
 
 /**
  * Created by serefbulbul on 19.12.2017.

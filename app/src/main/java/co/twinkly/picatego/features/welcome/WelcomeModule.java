@@ -2,6 +2,8 @@ package co.twinkly.picatego.features.welcome;
 
 import android.content.Context;
 
+import co.twinkly.picatego.utils.services.database.DatabaseService;
+import co.twinkly.picatego.utils.services.network.NetworkService;
 import dagger.Module;
 import dagger.Provides;
 
@@ -28,7 +30,7 @@ public class WelcomeModule {
 
     @WelcomeScope
     @Provides
-    public WelcomeContract.Interactor interactor() {
-        return new WelcomeInteractor();
+    public WelcomeContract.Interactor interactor(NetworkService networkService, DatabaseService databaseService) {
+        return new WelcomeInteractor(networkService, databaseService);
     }
 }

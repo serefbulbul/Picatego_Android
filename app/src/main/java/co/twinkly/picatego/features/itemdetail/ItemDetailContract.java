@@ -6,6 +6,9 @@ public interface ItemDetailContract {
 
     interface View extends BaseContract.View {
 
+        void setImageFromUrl(String url);
+
+        void setText(String text);
     }
 
     interface Presenter extends BaseContract.Presenter {

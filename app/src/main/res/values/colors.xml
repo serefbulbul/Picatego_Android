@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#2DAD18</color>
+    <color name="colorPrimaryDark">#20A010</color>
+    <color name="colorAccent">#59D845</color>
+
+    <!-- General -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="green_6419244">#40C02C</color>
+    <color name="zircon_gray">#E7E8E9</color>
+    <color name="forest_green">#258816</color>
+
+    <color name="shadow">#16383E47</color>
+
+    <color name="background">#FAFAFA</color>
+    <color name="arsenic_gray">#383E47</color>
+    <color name="storm_gray">#787C7F</color>
+    <color name="dark_gray">#B0B0B0</color>
+    <color name="kelly_green">#2DAD18</color>
+    <color name="lime_green">#59D845</color>
+    <color name="orange">#FFB101</color>
+    <color name="pumpkin_orange">#FF801E</color>
+    <color name="mariner_blue">#415DAE</color>
+    <color name="royal_blue">#5274D6</color>
+    <color name="smoke_white">#EAEAEA</color>
+    <color name="gainsboro_white">#D9D9D9</color>
+    <color name="silver_gray">#C3C3C3</color>
+
+    <color name="popup_qr_code">#A4ACB4</color>
 </resources>

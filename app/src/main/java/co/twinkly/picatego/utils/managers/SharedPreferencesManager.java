@@ -90,8 +90,8 @@ public class SharedPreferencesManager {
         return null;
     }
 
-    public Boolean getBooleanValue(String key) {
-        return mSharedPreferences.getBoolean(key, false);
+    public Boolean getBooleanValue(String key, boolean defaultValue) {
+        return mSharedPreferences.getBoolean(key, defaultValue);
     }
 
     public Float getFloatValue(String key) {

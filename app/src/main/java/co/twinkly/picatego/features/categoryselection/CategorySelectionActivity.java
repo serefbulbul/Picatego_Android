@@ -27,7 +27,7 @@ public class CategorySelectionActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         DaggerCategorySelectionComponent.builder()
-                .CategorySelectionModule(new CategorySelectionModule(this))
+                .categorySelectionModule(new CategorySelectionModule(this))
                 .appComponent(App.get(this).component())
                 .build().inject(this);
 

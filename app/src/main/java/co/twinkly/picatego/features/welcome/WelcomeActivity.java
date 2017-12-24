@@ -27,7 +27,7 @@ public class WelcomeActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         DaggerWelcomeComponent.builder()
-                .WelcomeModule(new WelcomeModule(this))
+                .welcomeModule(new WelcomeModule(this))
                 .appComponent(App.get(this).component())
                 .build().inject(this);
 
